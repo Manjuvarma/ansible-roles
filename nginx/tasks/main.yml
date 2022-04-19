@@ -1,0 +1,4 @@
+---
+# tasks file for nginx
+- name: ensure nginx is at the latest version
+  apt: name=nginx state=latest
